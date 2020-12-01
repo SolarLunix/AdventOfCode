@@ -1,11 +1,11 @@
-package Puzzles;
+package JavaPuzzles;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /*******
- *   2020:Puzzles
+ *   2020:JavaPuzzles
  *   File: Find2020
  *   Created by: Melissa Melaugh
  *   Created on: 01/12/2020
@@ -20,9 +20,9 @@ public class Find2020 {
         getTwoSumMultiplied(expenseReport1);
         getThreeSumMultiplied(expenseReport1);
 
-        System.out.println();
+        System.out.println("\n=============================================\n");
 
-        File file = new File("C:\\Users\\Solar\\IdeaProjects\\AdventOfCode\\2020\\src\\Puzzles\\ExpenseReport.txt");
+        File file = new File("C:\\Users\\Solar\\IdeaProjects\\AdventOfCode\\2020\\src\\ExternalInformation\\ExpenseReport.txt");
         int[] expenseReport2 = getExpenseReport(file);
         getTwoSumMultiplied(expenseReport2);
         getThreeSumMultiplied(expenseReport2);
@@ -35,7 +35,7 @@ public class Find2020 {
                 int number2 = expenses[num2Index];
                 if((number1+number2) == DESIRED_SUM){
                     System.out.println(String.format("The two numbers are %d and %d", number1, number2));
-                    System.out.println(String.format("The answer is %d", (number1*number2)));
+                    System.out.println(String.format("The answer is %d\n", (number1*number2)));
                     return (number1*number2);
                 }
             }
