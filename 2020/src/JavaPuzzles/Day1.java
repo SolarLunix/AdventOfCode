@@ -6,13 +6,13 @@ import java.util.Scanner;
 
 /*******
  *   2020:JavaPuzzles
- *   File: Find2020
+ *   File: Day1
  *   Created by: Melissa Melaugh
  *   Created on: 01/12/2020
  *   Updated on: 01/12/2020
  *   Project Description: //TODO
  *******/
-public class Find2020 {
+public class Day1 {
     protected static final int DESIRED_SUM = 2020;
 
     public static void main(String[] args) {
